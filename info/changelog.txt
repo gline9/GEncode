@@ -1,0 +1,46 @@
+   *** Version History ***
+   
+   
+V-0.1.0: Unofficial Release
+Released: 02/23/2016
+**Libraries**
+GMathv0.4.0
+GCorev0.1.5
+
+  --  Adds the ability to define and use a huffman encoding for compression of data.
+  
+  --  Has encryption tools to create an encrypted input and output stream.
+  
+  --  Encryption is currently slow and will increase in speed in future updates.
+  
+  --  Includes a primes class that can do some basic operations with finding and
+      displaying prime numbers.
+      
+      
+V-0.1.1: Bigger Security Update
+Released: 02/28/2016
+**Libraries**
+GMathv0.4.1
+GCorev0.1.6
+
+  --  Moved the number theory operations to the gmath library.
+  
+  --  Added multiply bit encryption so you can specify how secure your encryption is by how many bits
+      you use.
+      
+  --  Encryption amounts can differ between client and server so each user can specify how secure they want
+      their end to be.
+      
+  --  The amount specified is actually the amount the other person sends to you so if you want what you
+      are sending to be secure you need the other person to specify a higher security.
+      
+V-0.1.2: Encrypted File Update
+Released: 03/03/2016
+**Libraries**
+GMathv0.4.1
+GCorev0.1.6
+GFilesv0.1.0
+
+  --  Added a simple file encryption utility for encrypting/ decrypting files.
+  
+  --  Utility takes a key and will encrypt using the DES standard for encryption.
